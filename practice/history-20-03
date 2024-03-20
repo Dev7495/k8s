@@ -1,0 +1,35 @@
+    1  apt-get update
+    2  halt
+    3  FILE=/ks/wait-background.sh; while ! test -f ${FILE}; do clear; sleep 0.1; done; bash ${FILE}
+    4  kubectl get node
+    5  kubectl get node
+    6  kubect l get pod
+    7  kubectl version
+    8  kubeadm version
+    9  kubectl get node
+   10  kubectl get node -owide
+   11  kubectl get deployment
+   12  kubectl get pod
+   13  ll 
+   14  mkdir dev && cd dev
+   15  pwd
+   16  ll
+   17  cd dev/
+   18  git clone https://github.com/Dev7495/k8s.git
+   19  ll
+   20  git add .
+   21  yum install git -y
+   22  git init
+   23  git add .
+   24  ll
+   25  git add .
+   26  git status
+   27  kubectl create deployment logger --image=chentex/random-logger
+   28  ll
+   29  kubeectl get pod
+   30  kubectl get pod
+   31  kubectl get deployment
+   32  kubectl scale deployment logger --replicas=3
+   33  kubectl get pod
+   34  kubectl get events
+   35  history > history-20-03
